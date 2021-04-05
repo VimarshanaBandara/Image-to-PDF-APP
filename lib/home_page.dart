@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:image_to_pdf/about_screen.dart';
+import 'package:image_to_pdf/privacy_screen.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pdfWrite;
@@ -86,6 +87,8 @@ class _HomePageState extends State<HomePage> {
                            Text('3-If you want to insert an image into several pages, select Import Image.',style: TextStyle(fontSize: 20.0,color: Colors.black),),
                            SizedBox(height: 10.0),
                            Text('4-The Convert to PDF Button will convert the image to a PDF',style: TextStyle(fontSize: 20.0,color: Colors.black),),
+                           SizedBox(height: 10.0),
+                           Text('5-If you are going to rename it, do it as .pdf',style: TextStyle(fontSize: 20.0,color: Colors.black),),
                            SizedBox(height: 10.0),
                            Text('5-The converted PDF will be saved in the Download Folder in your Storage.',style: TextStyle(fontSize: 20.0,color: Colors.black),),
                          ],
@@ -324,7 +327,9 @@ class _HomePageState extends State<HomePage> {
               title: Text('Privacy & policy',style: TextStyle(fontSize: 16.0,fontWeight: FontWeight.bold,color: Colors.grey),),
               trailing: IconButton(
                 icon: Icon(Icons.menu),
-                onPressed: (){},
+                onPressed: (){
+                  Navigator.push(context,MaterialPageRoute(builder: (context)=>PrivacyHome()));
+                },
               ),
             ),
             Divider(),

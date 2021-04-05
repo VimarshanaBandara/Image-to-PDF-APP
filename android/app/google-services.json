@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "917215427932",
+    "project_id": "image-to-pdf-5f521",
+    "storage_bucket": "image-to-pdf-5f521.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917215427932:android:e494687af0718649525599",
+        "android_client_info": {
+          "package_name": "com.imagetopdfvmm.image_to_pdf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917215427932-c5tlhgjmj0g6mmc31e8e3ohdpd6pv7fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_31KA8Ozyc0pRXid56hpjNoj16Uqfz6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917215427932-c5tlhgjmj0g6mmc31e8e3ohdpd6pv7fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
